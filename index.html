@@ -1,0 +1,444 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/6e182f19bd.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <title>Sasta Telecom</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-top">
+                    <div class="navbar-top__openingHours">
+                        <h3>Opening Hours: 10:00 AM to 10:00 PM</h3>
+                    </div>
+                    <div class="navbar-top__socialMedia">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="navbar-middle">
+                    <div class="navbar-middle__logo">
+                        <img
+                            src="images/logo.png"
+                            class="navbar-middle__logo-Box"
+                            alt="logo"
+                        />
+                    </div>
+                    <div class="navbar-middle__link">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Our Services</a></li>
+                            <li><a href="aboutUs.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-middle__button">
+                        <a class="navbar-middle__button-item" href="#book">Book Now</a>
+                    </div>
+                </div>
+                <hr class="navbar-end" />
+            </div>
+        </nav>
+
+        <header>
+            <div class="services">
+                <div class="services-head">
+                    <h1>Popular Brands We Repair</h1>
+                </div>
+                <div class="services-brands">
+                    <div class="services-brands__1">
+                        <img
+                            class="services-brands__item"
+                            src="images/apple.png"
+                            alt="apple"
+                        />
+                        <img
+                            class="services-brands__item"
+                            src="images/mi.png"
+                            alt="mi"
+                        />
+                        <img
+                            class="services-brands__item"
+                            src="images/moto.png"
+                            alt="moto"
+                        />
+                        <img
+                            class="services-brands__item"
+                            src="images/oneplus.png"
+                            alt="oneplus"
+                        />
+                    </div>
+                    <div class="services-brands__2">
+                        <img
+                            class="services-brands__item"
+                            src="images/oppo.png"
+                            alt="oppo"
+                        />
+                        <img
+                            class="services-brands__item"
+                            src="images/realme.png"
+                            alt="realme"
+                        />
+                        <img
+                            class="services-brands__item"
+                            src="images/vivo.png"
+                            alt="vivo"
+                        />
+                        <img
+                            class="services-brands__item"
+                            src="images/samsung.png"
+                            alt="samsung"
+                        />
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="priceCalc">
+                <div class="priceCalc-head">
+                    <h1 class="priceCalc-head__text">
+                        Calculate Your Estimated Price of Repair
+                    </h1>
+                </div>
+                <form class="priceCalc-form">
+                    <label for="phoneName">Your Phone :</label>
+                    <input
+                        type="text"
+                        id="phoneName"
+                        name="phoneName"
+                        placeholder="Your phone ..."
+                        required
+                    />
+                    <label for="phoneNumber">Phone Number :</label>
+                    <input
+                        type="tel"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        placeholder="Phone Number..."
+                        required
+                    />
+                    <div class="priceCalc-form__checkbox-1">
+                        <label for="BrokenScreen">Broken Screen</label>
+                        <input
+                            type="checkbox"
+                            name="BrokenScreen"
+                            id="brokenScreen"
+                        />
+                        <label for="BatteryIssue">Battery Issue</label>
+                        <input
+                            type="checkbox"
+                            name="BatteryIssue"
+                            id="BatteryIssue"
+                        />
+                        <label for="SpeakerIssue">Speaker Issue</label>
+                        <input
+                            type="checkbox"
+                            name="SpeakerIssue"
+                            id="SpeakerIssue"
+                        />
+                        <label for="ChargingIssue">Charging Issue</label>
+                        <input
+                            type="checkbox"
+                            name="ChargingIssue"
+                            id="ChargingIssue"
+                        />
+                    </div>
+                    <div class="priceCalc-form__checkbox-2">
+                        <label for="MicrophoneIssue">Microphone Issue</label>
+                        <input
+                            type="checkbox"
+                            name="MicrophoneIssue"
+                            id="MicrophoneIssue"
+                        />
+                        <label for="WiFiIssue">WiFi Issue</label>
+                        <input
+                            type="checkbox"
+                            name="WiFiIssue"
+                            id="WiFiIssue"
+                        />
+                        <label for="otherIssue">Other Issue...</label>
+                        <input
+                            type="checkbox"
+                            name="otherIssue"
+                            id="otherIssue"
+                        />
+                    </div>
+                    <button type="submit" class="priceCalc-button">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section-features">
+            <div class="features">
+                <div class="features-head">
+                    <h1 class="features-head-ing">Why Choose Sasta Telecom</h1>
+                </div>
+
+                <div class="features-box">
+                    <div class="features-box-es">
+                        <div class="features-box-es_details">
+                            <div class="features-box-es_details-text">
+                                <h4
+                                    class="features-box-es_details-text-heading"
+                                >
+                                    Quick Service
+                                </h4>
+                                <p class="features-box-es_details-text-para">
+                                    We understand your time is precious.
+                                    GoEasyRepair expert will fix your device
+                                    within 30 minutes!
+                                </p>
+                            </div>
+                            <div class="features-box-es_details-image">
+                                <i
+                                    class="fa-solid fa-clock features-box-es_details-image-icon"
+                                ></i>
+                            </div>
+                        </div>
+
+                        <div class="features-box-es_details">
+                            <div class="features-box-es_details-text">
+                                <h4
+                                    class="features-box-es_details-text-heading"
+                                >
+                                    Free Doorstep Service
+                                </h4>
+                                <p class="features-box-es_details-text-para">
+                                    Get premium mobile repair service at your
+                                    doorstep with no additional cost.
+                                </p>
+                            </div>
+                            <div
+                                class="features-box-es_details-image truck-icon"
+                            >
+                                <i
+                                    class="fa-solid fa-truck features-box-es_details-image-icon"
+                                ></i>
+                            </div>
+                        </div>
+
+                        <div class="features-box-es_details">
+                            <div class="features-box-es_details-text">
+                                <h4
+                                    class="features-box-es_details-text-heading"
+                                >
+                                    Transparency
+                                </h4>
+                                <p class="features-box-es_details-text-para">
+                                    GoEasyRepair provides complete,
+                                    authoritative and timely declaration of
+                                    information to its customers
+                                </p>
+                            </div>
+                            <div
+                                class="features-box-es_details-image award-icon"
+                            >
+                                <i
+                                    class="fa-solid fa-award features-box-es_details-image-icon"
+                                ></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features-box-es">
+                        <img
+                            class="features-box-es-img"
+                            src="images/Expert-Tech-crop-1-Converted.png"
+                            alt="ig"
+                        />
+                    </div>
+
+                    <div class="features-box-right">
+                        <div class="features-box-right_details">
+                            <div class="features-box-right_details-image">
+                                <i
+                                    class="fa-solid fa-id-card features-box-right_details-image-icon"
+                                ></i>
+                            </div>
+                            <div class="features-box-right_details-text">
+                                <h4
+                                    class="features-box-right_details-text-heading"
+                                >
+                                    Certified Professionals
+                                </h4>
+                                <p class="features-box-right_details-text-para">
+                                    GoEasyRepair technicians are professionally
+                                    experienced. Rest assured, your device is in
+                                    safe hands
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="features-box-right_details">
+                            <div
+                                class="features-box-right_details-image truck-icon"
+                            >
+                                <i
+                                    class="fa-solid fa-shield-halved features-box-right_details-image-icon"
+                                ></i>
+                            </div>
+                            <div class="features-box-right_details-text">
+                                <h4
+                                    class="features-box-right_details-text-heading"
+                                >
+                                    6-Month Warranty
+                                </h4>
+                                <p class="features-box-right_details-text-para">
+                                    We offer 6-month warranty. Our team will
+                                    share all the warranty related information
+                                    with you
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="features-box-right_details">
+                            <div
+                                class="features-box-right_details-image award-icon"
+                            >
+                                <i
+                                    class="fa-solid fa-recycle features-box-right_details-image-icon"
+                                ></i>
+                            </div>
+                            <div class="features-box-right_details-text">
+                                <h4
+                                    class="features-box-right_details-text-heading"
+                                >
+                                    E-waste management
+                                </h4>
+                                <p class="features-box-right_details-text-para">
+                                    At GoEasyRepair, e-waste is channelized to a
+                                    registered recycler for their safe
+                                    transportation and disposal
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="book" id="book">
+            <div class="book__form">
+                <form action="#" class="form">
+                    <h2 class="book__form-heading">Book Your Appointment</h2>
+
+                    <div class="book__form-group">
+                        <input
+                            type="text"
+                            class="form__input"
+                            placeholder="Full name"
+                            id="name"
+                            required
+                        />
+                        <label for="name" class="form__label">Full Name</label>
+                    </div>
+
+                    <div class="book__form-group">
+                        <input
+                            type="tel"
+                            class="form__input"
+                            placeholder="Phone Number"
+                            id="phone"
+                            required
+                        />
+                        <label for="phone" class="form__label"
+                            >Phone Number</label
+                        >
+                    </div>
+
+                    <div class="book__form-group">
+                        <input
+                            type="text"
+                            class="form__input"
+                            placeholder="Email Address"
+                            id="email"
+                            required
+                        />
+                        <label for="email" class="form__label"
+                            >Email Address</label
+                        >
+                    </div>
+
+                    <button class="book__form-btn btn">Book Now</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- <section>
+            <div class="bookAppointment">
+                <div class="bookAppointment-heading">
+                    <h1>Book Appointment With Us!</h1>
+                </div>
+                <form class="bookAppointment-form">
+                    <div class="bookAppointment-form__element">
+                        <label for="name">Your Name :</label>
+                        <input
+                            type="text"
+                            placeholder="Your Name..."
+                            id="name"
+                            name="name"
+                        />
+                    </div>
+                    <div class="bookAppointment-form__element">
+                        <label for="email">Your Email :</label>
+                        <input
+                            type="email"
+                            placeholder="Your Email..."
+                            id="email"
+                            name="email"
+                        />
+                    </div>
+                    <div class="bookAppointment-form__element">
+                        <label for="phone">Your Phone Number :</label>
+                        <input
+                            type="tel"
+                            placeholder="Your Phone Number..."
+                            id="phone"
+                            name="phone"
+                        />
+                    </div>
+                    <button type="submit" class="bookAppointment-form__button">
+                        Book Appointment
+                    </button>
+                </form>
+            </div>
+        </section> -->
+
+        <footer>
+            <div class="footer">
+                <h1 class="footer-heading">
+                    Copyright &copy; 2023 by Sasta Telecom | All Rights reserved
+                </h1>
+                <div class="footer-socialMedia">
+                    <a href="#"> <i class="fa-brands fa-instagram"></i>|</a>
+                    <a href="#"> <i class="fa-brands fa-facebook"></i>|</a>
+                    <a href="#"> <i class="fa-brands fa-whatsapp"></i>|</a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
